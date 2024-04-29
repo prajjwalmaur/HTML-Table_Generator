@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    margin: 5px 2px;
+    width: 200px;
+}
+
+.navbar ul {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 20px;
+}
+
+.navbar li {
+    margin: 10px;
+    list-style: none;
+}
+
+.navbar a {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: azure;
+    font-size: 20px;
+}
+
+.navbar a:hover {
+    color: rgb(184, 183, 183);
+}
+
+#slidebar {
+    display: none;
+}
+
+#reload {
+    margin: 20px;
+    display: none;
+    width: 30px;
+    font-size: 25px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#container {
+    background-image: linear-gradient(to right, rgb(117, 117, 117), black);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    color: #ffffff;
+    text-align: center;
+
+}
+
+#con {
+    display: block;
+    margin: 30px auto;
+    border: 2px dashed rgb(182, 181, 181);
+    border-radius: 5px;
+    width: 70%;
+    font-size: 20px;
+    height: 300px;
+    padding: 10px
+}
+
+
+.opbutton {
+    color: white;
+    border-radius: 8px;
+    background-color: #3939b3;
+    border: 2px solid blue;
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.opbutton:hover {
+    background-color: #42cff5;
+    color: black;
+}
+
+.hide {
+    display: none;
+    margin: 20px;
+}
+
+.h2head {
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#preview {
+    width: 70%;
+}
+
+.prebox {
+    background-color: #b3f0ff;
+    color: black;
+    font-family: monospace;
+    border: 5px dashed blue;
+    border-radius: 10px;
+    padding: 10px;
+    width: 70%;
+    font-size: 15px;
+}
+
+.instruction {
+    width: 100%;
+    color: #e6faff;
+}
+
+.instruction h2 {
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+}
+
+.instruction p {
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer {
+    display: flex;
+    padding: 20px 0px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#simple_table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #e6faff;
+    color: black;
+}
+
+#simple_table td,
+#simple_table th {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ffffff;
+}
+
+#simple_table tr:nth-child(even) {
+    background-color: #b3f0ff;
+}
+
+#simple_table tr:hover {
+    background-color: #80ff80;
+}
+
+#simple_table tr>th {
+    background: #0000ff;
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        display: none;
+    }
+
+    #slidebar {
+        display: block;
+        width: 50px;
+        font-size: 25px;
+        background-color: black;
+        color: white;
+        border: 2px solid white;
+        border-radius: 10px;
+    }
+}

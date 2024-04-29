@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Table Generation</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <img src="./sudo-day-logo.png" alt="LOGO" srcset="" id="logo">
+        <nav class="navbar">
+            <ul id="nav">
+                <li class="items"><a href="https://sudoday.com/">Home</a></li>
+                <li class="items"><a href="https://sudoday.com/contact-us/">Contact Us</a></li>
+                <li class="items"><a href="https://sudoday.com/disclaimer/">Desclaimer</a></li>
+                <li class="items"><a href="https://sudoday.com/privacy-and-policy/">Privacy And Policy</a></li>
+            </ul>
+        </nav>
+        <button id="slidebar" onclick="slidebar();">
+            &equiv;
+        </button>
+        <button id="reload" onclick="reload();">
+            X
+        </button>
+    </header>
+    <main id="container">
+        <h1 class="heading">
+            Responsive Table Code Generator Without Coding Knowledge
+        </h1>
+        <textarea name="con" id="con" placeholder="Paste Whole Table at Once"></textarea>
+        <button type="button" onclick="doweb();" id="submit" class=" opbutton">Submit</button>
+        <h2 class="hide h2head">-: Preveiw of Table :- </h2>
+        <pre id="preview" class="hide">nothing</pre>
+        <h2 class="hide h2head">-: HTML CODE :- </h2>
+        <pre id="htmlcode" class="hide prebox"></pre>
+        <button type="button" onclick="copyhtm();" id="copyhtml" class="opbutton hide">Copy HTML Code</button>
+        <h2 class="hide h2head">-: CSS CODE :- </h2>
+        <pre id="csscode" class="hide prebox"></pre>
+        <button type="button" onclick="copycs();" id="copycss" class="opbutton hide">Copy CSS Code</button>
+        <div class="instruction">
+            <h2>Instruction ( Steps to DO ) :</h2>
+            <p>1. Open Word office or Exel.</p>
+            <p>2. Copy <b>Whole table</b> at Once ( Ctrl + C ).</p>
+            <p>3. Paste in above <b>Box</b> ( Ctrl + V ).</p>
+            <p>4. Click on <b>Submit</b> button.</p>
+            <p>5. Now you get <b>Preview</b> of table.</p>
+            <p>6. Just below the Table you get <b>HTML</b> Code.</p>
+            <p>7. Click on Copy HTML Code button.</p>
+            <p>8. Then Paste the code in your <b>Website</b>.</p>
+            <p>9. To beautify the Table Copy the CSS Code.</p>
+            <p>10. Paste the CSS code in your Website.</p>
+            <p> Congratulations You have made a Responsive table succesfully. 😊😊😊</p>
+        </div>
+    </main>
+    <footer>
+        <span>Copyright © 2023 Sudo Day</span>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
